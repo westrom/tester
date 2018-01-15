@@ -19,7 +19,23 @@
 		}   
         
         /* TABLET */
-		@media (max-width:768px) {
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+		body {
+            margin: 0;
+		}
+		#wrapper {
+			margin: 0;
+            background: blue;
+		}
+		.padding {
+			padding: 3.925%;
+		}  
+}
+
+
+		/*@media (max-width:768px) {
 		body {
             margin: 0;
 		}
@@ -30,7 +46,7 @@
 		.padding {
 			padding: 3.925%;
 		}   
-		  }     
+		  }     */
         
         
         /* MOBILE */
