@@ -25,19 +25,15 @@
                 margin: 0;
             }
             #wrapper {
-                margin: 0;
+                max-width: 100%;
+                margin-left: 0;
+                margin-right: 0;
             }
             .padding {
                 padding: 3.925%;
                 margin: 0;
             }
         }
-
-		/*.padding {
-			padding: 3.925%;
-		} */ 
-
-        
         
         /* MOBILE */
         @media (max-width : 480px) and (min-width : 320px) {
@@ -48,7 +44,9 @@
                 margin: 0;
             }
             #wrapper {
-                margin:0;
+                max-width: 100%;
+                margin-left: 0;
+                margin-right: 0;
             }
             .padding {
                 padding: 3.925%;
@@ -151,7 +149,7 @@
         }
         div.tableofcontent {
             border-left: 3px solid #0079C2;
-            padding: 14px 0 14px 3.925%;
+            padding: 7px 0 14px 3.925%;
             margin: 0 0 28px 0px;
         }
         
@@ -167,7 +165,7 @@
             margin-bottom: 7px;
         }
         div.tableofcontent ul li:first-child{
-            margin-top: 21px;
+            margin-top: 14px;
         }
     
         .accordionbox {
