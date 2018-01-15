@@ -61,11 +61,19 @@
             font-weight: 500;
         }
 		h1 {
-			font-size: 195%;
             font-family: "franklin-gothic-urw",sans-serif;
+            font-style: normal;
             font-weight: 500;
-            -moz-hyphens: auto;
-            hyphens: auto;
+            font-size: 195%;
+             -ms-word-break: break-all;
+                 word-break: break-all;
+
+                 // Non standard for webkit
+                 word-break: break-word;
+
+            -webkit-hyphens: auto;
+               -moz-hyphens: auto;
+                    hyphens: auto;
             line-height: 1.2;
             margin: 0 0 14px 0;
 		}
