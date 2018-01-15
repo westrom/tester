@@ -25,6 +25,7 @@
 		}
 		#wrapper {
 			margin: 0;
+            background: blue;
 		}
 		.padding {
 			padding: 3.925%;
@@ -33,24 +34,15 @@
         
         
         /* MOBILE */
-    @media only screen 
-        and (min-device-width: 375px) 
-        and (max-device-width: 667px) 
-        and (-webkit-min-device-pixel-ratio: 2) {
-      		body {
-            font-size: 17px;
-            line-height: 15px;
-            margin: 0;
-
-            }
-		/*@media only screen and (max-width:576px) {
+		@media only screen and (max-width:576px) {
 		body {
             font-size: 17px;
             line-height: 15px;
             margin: 0;
-		}*/
+		}
 		#wrapper {
 			margin: 0;
+            background: red;
 		}
 		.padding {
 			padding: 3.925%;
