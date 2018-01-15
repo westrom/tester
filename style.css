@@ -19,7 +19,7 @@
 		}   
         
         /* TABLET */
-        @media (max-width : 768px) and (min-width : 481px) {
+        @media (max-width : 769px) and (min-width : 481px) {
             body {
                 padding: 0;
                 margin: 0;
