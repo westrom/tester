@@ -71,14 +71,14 @@
             -webkit-hyphens: auto;
                -moz-hyphens: auto;
                     hyphens: auto;
-            line-height: 1.2;
+            line-height: 1.25;
             margin: 0;
 		}
 
 		h2 {
 			font-size: 140%;
-            line-height: 1.5;
-            margin: 35px 0 0 0;
+            line-height: 1.2;
+            margin: 35px 0 7px 0;
 		}
 		h3 {
 			font-size: 110%;
