@@ -3,11 +3,11 @@
 		body {
 			background: #fff;
             padding: 0 4%;
-            font-size: 16px;
+            font-size: 18px;
             line-height: 24px;
 			font-family: 'Source Sans Pro', sans-serif;
             -webkit-font-smoothing: antialiased;
-            max-width: 720px;
+            max-width: 640px;
 		} 
         
         /* Desktop */
@@ -71,17 +71,17 @@
 		}
 
 		h2 {
-			font-size: 24px;
+			font-size: 26px;
             line-height: 25px;
             margin: 25px 0 10px 0;
 		}
 		h3 {
-			font-size: 18px;
-            line-height: 22px;
+			font-size: 20px;
+            line-height: 26px;
             margin: 22px 0 10px 0;
 		}
 		h4 {
-			font-size: 16px;
+			font-size: 18px;
             line-height: 20px;
             margin: 10px 0 5px 0;
 		}
@@ -94,14 +94,14 @@
         /* TYPOGRAPHY */         
 		
         p.ingress {
-			font-size: 18px;
-			line-height: 22px;
+			font-size: 20px;
+			line-height: 26px;
             margin: 5px 0 22px 0;
 		}
         
         .small {
-            font-size: 85%;
-            line-height: 1.5;
+            font-size: 16px;
+            line-height: 24px;
             margin: 0 0 0 0;
         }        
         
