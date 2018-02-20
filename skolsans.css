@@ -15,7 +15,7 @@
         @media (min-width : 721px) {
             body {
                 font-size: 20px;
-                line-height: 27px;
+                line-height: 28px;
                 padding: 0 8%;
             }
         h1 {
@@ -47,13 +47,12 @@
         p.ingress {
 			font-size: 125% !important;
 			line-height: 1.25 !important;
-            margin: 0 0 28px 0 !important;
+            margin: 0 0 30px 0 !important;
 		}
         
         .small {
             font-size: 18px !important;
             line-height: 24px !important;
-            margin: 0 0 0 0;
         }        
         }
 
